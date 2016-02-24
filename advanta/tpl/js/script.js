@@ -7,6 +7,13 @@ $(function () {
 	$(window).resize(function () {
 		BrowserWindows();
 	});
+	grayscale.prepare( $('#dov .table img') );
+	grayscale($('#dov .table img'));
+	$('#dov .table .table-cell').hover(function() {
+		grayscale.reset( $(this).find('img') );
+	}, function() {
+		grayscale( $(this).find('img') );
+	});	
 });
 
 function ParalaxImg() {
