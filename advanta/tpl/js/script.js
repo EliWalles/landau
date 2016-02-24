@@ -1,16 +1,12 @@
 $(function () {
-	
-	var x=0;
 	ParalaxImg();
+	BrowserWindows()
 	$(window).scroll(function(){
 		ParalaxImg();
 	});
-	var wW = $(window).width()/2+120;
-	var wWm = $(window).width()/2-120-683;
-	$('#all .block1').css('background-position',wW+'px center');
-	$('#all .block2').css('background-position',wWm+'px center');
-	$('#all .block3').css('background-position',wW+'px center');
-	
+	$(window).resize(function () {
+		BrowserWindows();
+	});
 });
 
 function ParalaxImg() {
@@ -45,6 +41,18 @@ function ParalaxImg() {
 		$('body .img-hold:eq(3)').show();
 	}
 	if($( "#res:in-viewport(-300)" ).text()) {
-		if (!x) $('.circlestat').circliful();x=1;
+		$('.circlestat').each(function(){
+			if ($(this).hasClass('actc')===false) { 
+				$(this).addClass('actc').circliful();
+			}	
+		});
 	}
+}
+
+function BrowserWindows() {
+	var wW = $(window).width()/2+120;
+	var wWm = $(window).width()/2-120-683;
+	$('#all .block1').css('background-position',wW+'px center');
+	$('#all .block2').css('background-position',wWm+'px center');
+	$('#all .block3').css('background-position',wW+'px center');
 }
