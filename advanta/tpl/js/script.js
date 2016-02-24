@@ -14,9 +14,32 @@ jQuery(document).ready(function(){
 jQuery(function () {
 	ParalaxImg();
 	BrowserWindows()
-	jQuery('#form form').submit(function(e) {
-		grayscale.reset( jQuery(this).find('img') );
+	jQuery('a[href="#fire_form_new4"]').click(function(e) {
+		jQuery('#form form').submit();
 		e.preventDefault();
+	})
+	jQuery('#form form').submit(function(e) {
+		var ErW = '';
+		if (!jQuery('input[name="widget_9"]').val()) {
+			ErW = 'Представьтесь<br/>';
+			jQuery('input[name="widget_9"]').addClass('rq');
+		}
+		if (!jQuery('input[name="widget_4"]').val()) {
+			ErW += 'Введите имя компании<br/>';
+			jQuery('input[name="widget_4"]').addClass('rq');
+		}
+		if (!jQuery('input[name="widget_7"]').val()) {
+			ErW += 'Введите телефон<br/>';
+			jQuery('input[name="widget_7"]').addClass('rq');
+		}
+		if (!jQuery('select[name="widget_5"]').val()) {
+			ErW += 'Выберете количество сотрудников в компании<br/>';
+			jQuery('select[name="widget_5"]').addClass('rq');
+		}
+		if (ErW) {
+			jQuery('.errori').html(ErW);
+			return false;
+		}
 	});
 	jQuery(window).scroll(function(){
 		ParalaxImg();

@@ -701,6 +701,10 @@ section .fotorama__active .fotorama__dot {
 	width: 250px;
 }
 
+#form input.rq {
+	border: 2px solid #ff5515;
+}
+
 #form textarea {
 	padding: 0 20px;
 	height: 140px;
