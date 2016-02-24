@@ -9,12 +9,7 @@ jQuery(document).ready(function(){
 					}, "slow");
 		e.preventDefault();
 	});
-
-})
-jQuery(function () {
-	ParalaxImg();
-	BrowserWindows();
-	jQuery('#form form').submit(function(e) {
+	jQuery('#form a.button').click(function(e){
 		var ErW = '';
 		if (!jQuery('input[name="widget_9"]').val()) {
 			ErW = 'Представьтесь<br/>';
@@ -34,9 +29,17 @@ jQuery(function () {
 		}
 		if (ErW) {
 			jQuery('.errori').html(ErW);
-			return false;
+		} else {
+			jQuery('a[href="#fire_form_new4"]').click();
 		}
+		e.preventDefault();
 	});
+
+})
+jQuery(function () {
+	ParalaxImg();
+	BrowserWindows();
+	
 	jQuery(window).scroll(function(){
 		ParalaxImg();
 	});
