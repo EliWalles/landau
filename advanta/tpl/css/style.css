@@ -731,7 +731,7 @@ section .fotorama__active .fotorama__dot {
 	display: block;
 }
 
-.error {
+.errori {
 	text-align: center;
 	color: #ff5515;
 	font-size: 16px;
