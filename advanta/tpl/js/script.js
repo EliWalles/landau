@@ -3,10 +3,7 @@ jQuery(document).ready(function(){
 	grayscale.prepare( jQuery('#dov .table .table-cell img') );
 	grayscale( jQuery('#dov .table .table-cell img') );
 	jQuery('a[href="#form"]').click(function(e){
-		top =  jQuery('#form').offset().top+50;
-					jQuery('html, body').animate({
-						scrollTop: top
-					}, "slow");
+		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
 		e.preventDefault();
 	});
 	jQuery('#form a.button').click(function(e){
