@@ -7,8 +7,10 @@ $(function () {
 	$(window).resize(function () {
 		BrowserWindows();
 	});
-	grayscale.prepare( $('#dov .table img') );
-	grayscale($('#dov .table img'));
+	$('#dov .table img').each(function(){
+		grayscale.prepare( $(this) );
+		grayscale($(this));
+	})
 	$('#dov .table .table-cell').hover(function() {
 		grayscale.reset( $(this).find('img') );
 	}, function() {
