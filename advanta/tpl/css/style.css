@@ -655,6 +655,9 @@ section .fotorama__active .fotorama__dot {
 .block.block-html.is-html {
 	width: 100% !important;
 }
+.page_container {
+	width: 100% !important;	
+}
 #dov ul.table li.line div {
 	background: #d9d9d9;
 	width:2px;
