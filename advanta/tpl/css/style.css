@@ -734,7 +734,7 @@ section .fotorama__active .fotorama__dot {
 	margin: 0 auto;
 	display: block;
 }
-a[href="#fire_form_new4"] {
+a#sendform {
 	display:none;
 }
 .errori {
