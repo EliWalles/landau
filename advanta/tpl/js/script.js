@@ -8,7 +8,6 @@ $(function () {
 		BrowserWindows();
 	});
 	$('#dov .table img').each(function(){
-		grayscale.prepare( $(this) );
 		grayscale($(this));
 	})
 	$('#dov .table .table-cell').hover(function() {
