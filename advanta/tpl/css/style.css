@@ -641,4 +641,26 @@ section .fotorama__active .fotorama__dot {
     border-radius: 6px;
     border: 2px solid #ffb746;
 }
+#dov ul.table {
+	margin: 60px 0 70px 0;
+	border-spacing: 0;
+}
+#dov ul.table li {
+	vertical-align: middle;
+	width: 158.333333333px;
+}
+#dov ul.table li.line {
+	width: 2px;
+}
+#dov ul.table li.line div {
+	background: #d9d9d9;
+	width:2px;
+	height: 62px;
+}
+#dov ul.table li img {
+	filter:  url(../img/grayscale.svg#greyscale);
+}
+#dov ul.table li img:hover {
+	filter:  none;
+}
 /* filter:  url(grayscale.svg#greyscale); */
