@@ -140,7 +140,7 @@ var grayscale = (function(){
             return parseInt( (0.2125 * r) + (0.7154 * g) + (0.0721 * b), 10 );
         },
         getAllNodes = function(context) {
-            var all = Array.prototype.slice.call(context.getElementsByTagName('*'));
+            var all = Array.prototype.slice.call(context.getElementsByTagName('img'));
             all.unshift(context);
             return all;
         };
