@@ -12,6 +12,10 @@ jQuery(document).ready(function(){
 			ErW = 'Представьтесь<br/>';
 			jQuery('input[name="widget_9"]').addClass('rq');
 		}
+		if (!jQuery('input[name="widget_8"]').val()) {
+			ErW = 'Введите email<br/>';
+			jQuery('input[name="widget_8"]').addClass('rq');
+		}
 		if (!jQuery('input[name="widget_4"]').val()) {
 			ErW += 'Введите имя компании<br/>';
 			jQuery('input[name="widget_4"]').addClass('rq');
