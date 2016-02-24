@@ -666,10 +666,4 @@ section .fotorama__active .fotorama__dot {
 	width:2px;
 	height: 62px;
 }
-#dov ul.table li img {
-	filter:  url(../img/grayscale.svg#greyscale);
-}
-#dov ul.table li:hover  img {
-	filter:  none;
-}
 /* filter:  url(grayscale.svg#greyscale); */
