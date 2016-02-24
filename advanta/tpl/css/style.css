@@ -468,6 +468,7 @@ h4 {
 .slide .right {
 	display: table-cell;
 	vertical-align: top;
+	width: 340px;
 }
 
 .slide .port {
