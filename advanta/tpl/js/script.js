@@ -1,3 +1,4 @@
+jQuery = jQuery.noConflict(true);
 jQuery(document).ready(function(){
 	grayscale.prepare( jQuery('#dov .table .table-cell img') );
 	grayscale( jQuery('#dov .table .table-cell img') );
