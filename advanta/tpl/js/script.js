@@ -2,11 +2,22 @@ jQuery = jQuery.noConflict(true);
 jQuery(document).ready(function(){
 	grayscale.prepare( jQuery('#dov .table .table-cell img') );
 	grayscale( jQuery('#dov .table .table-cell img') );
+	jQuery('a[href="#form"]').click(function(e){
+		top =  jQuery('#form').offset().top+50;
+					jQuery('html, body').animate({
+						scrollTop: top
+					}, "slow");
+		e.preventDefault();
+	});
 
 })
 jQuery(function () {
 	ParalaxImg();
 	BrowserWindows()
+	jQuery('#form form').submit(function(e) {
+		grayscale.reset( jQuery(this).find('img') );
+		e.preventDefault();
+	});
 	jQuery(window).scroll(function(){
 		ParalaxImg();
 	});

@@ -666,4 +666,75 @@ section .fotorama__active .fotorama__dot {
 	width:2px;
 	height: 62px;
 }
+#form {
+	padding: 120px 0;
+	background: #f2f2f2;
+}
+
+#form .table {
+	border-spacing: 0;
+}
+
+#form form {
+	display: block;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.fLeft {
+	float: left;
+	width: 50%:
+}
+
+.fRight {
+	float: right;
+}
+
+#form input {
+	padding: 0 20px;
+	line-height: 40px;
+	border-radius: 3px;
+	border: 2px solid #dbdbdb;
+	font-size:16px;
+	display: block;
+	margin-bottom: 15px;
+	width: 250px;
+}
+
+#form textarea {
+	padding: 0 20px;
+	height: 140px;
+	border-radius: 3px;
+	border: 2px solid #dbdbdb;
+	font-size:16px;
+	display: block;
+	margin-bottom: 15px;
+	width: 560px;
+}
+#form select {
+	padding: 0 20px;
+	line-height: 40px;
+	height: 44px;
+	background: #fff;
+	border-radius: 3px;
+	border: 2px solid #dbdbdb;
+	font-size:16px;
+	display: block;
+	margin-bottom: 15px;
+	width: 294px;
+}
+
+#form .button {
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+
+.errori {
+	text-align: center;
+	color: #ff5515;
+	font-size: 16px;
+	margin: 10px 0;
+}
 /* filter:  url(grayscale.svg#greyscale); */
