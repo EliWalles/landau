@@ -701,6 +701,7 @@ section .fotorama__active .fotorama__dot {
 	display: block;
 	margin-bottom: 15px;
 	width: 250px;
+    font-family: "LatoRegular", "Lato Regular" !important;
 }
 
 #form input.rq {
@@ -716,6 +717,7 @@ section .fotorama__active .fotorama__dot {
 	display: block;
 	margin-bottom: 15px;
 	width: 560px;
+    font-family: "LatoRegular", "Lato Regular" !important;
 }
 #form select {
 	padding: 0 20px;
@@ -728,6 +730,7 @@ section .fotorama__active .fotorama__dot {
 	display: block;
 	margin-bottom: 15px;
 	width: 294px;
+    font-family: "LatoRegular", "Lato Regular" !important;
 }
 
 #form .button {
