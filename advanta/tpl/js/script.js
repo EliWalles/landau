@@ -13,11 +13,7 @@ jQuery(document).ready(function(){
 })
 jQuery(function () {
 	ParalaxImg();
-	BrowserWindows()
-	jQuery('a[href="#fire_form_new4"]').click(function(e) {
-		jQuery('#form form').submit();
-		e.preventDefault();
-	})
+	BrowserWindows();
 	jQuery('#form form').submit(function(e) {
 		var ErW = '';
 		if (!jQuery('input[name="widget_9"]').val()) {
