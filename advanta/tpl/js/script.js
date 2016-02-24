@@ -30,7 +30,8 @@ jQuery(document).ready(function(){
 		if (ErW) {
 			jQuery('.errori').html(ErW);
 		} else {
-			jQuery('a[href="#fire_form_new4"]').click();
+			/*jQuery('#sendform').click();*/
+			jQuery('.errori').html('<span style="color:#000">Форма отправлена</span>');
 		}
 		e.preventDefault();
 	});
