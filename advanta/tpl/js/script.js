@@ -1,3 +1,8 @@
+$(document).ready(function(){
+	grayscale.prepare( $('#dov .table .table-cell img') );
+	grayscale( $('#dov .table .table-cell img') );
+
+})
 $(function () {
 	ParalaxImg();
 	BrowserWindows()
@@ -7,9 +12,6 @@ $(function () {
 	$(window).resize(function () {
 		BrowserWindows();
 	});
-	$('#dov .table img').each(function(){
-		grayscale($(this));
-	})
 	$('#dov .table .table-cell').hover(function() {
 		grayscale.reset( $(this).find('img') );
 	}, function() {
