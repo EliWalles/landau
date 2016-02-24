@@ -210,7 +210,7 @@ h3 {
 	margin: 80px 0 60px 0;
 	font-size: 18px;
 	color: #565656;
-	font-family: 'Minion Pro Regular';
+    font-family: "LatoRegular", "Lato Regular";
 }
 
 .c2196f3 {
@@ -649,9 +649,11 @@ section .fotorama__active .fotorama__dot {
 #dov ul.table li {
 	vertical-align: middle;
 	width: 158.333333333px;
+	cursor: pointer;
 }
 #dov ul.table li.line {
 	width: 2px;
+	cursor: normal;
 }
 .block.block-html.is-html {
 	width: 100% !important;
@@ -667,7 +669,7 @@ section .fotorama__active .fotorama__dot {
 #dov ul.table li img {
 	filter:  url(../img/grayscale.svg#greyscale);
 }
-#dov ul.table li img:hover {
+#dov ul.table li:hover  img {
 	filter:  none;
 }
 /* filter:  url(grayscale.svg#greyscale); */
