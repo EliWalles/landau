@@ -478,10 +478,13 @@ h4 {
 }
 
 .slide .port img {
-	display: table-cell;
 	width: 140px;
-	vertical-align: middle;
-	padding-right: 20px;	
+	vertical-align: middle;    
+	border: 2px solid rgb(217, 217, 217);
+    border-radius: 100%;
+    display: block;
+    padding: 0px;
+    margin-right: 20px;
 }
 
 .slide .port p {
