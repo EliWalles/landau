@@ -1,0 +1,50 @@
+/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("SegoeUIRegular/SegoeUIRegular.eot%3F")format("embedded-opentype"),
+    url("SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUIBold"; */
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("SegoeUIBold/SegoeUIBold.eot");
+    src: url("SegoeUIBold/SegoeUIBold.eot%3F")format("embedded-opentype"),
+    url("SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUIItalic"; */
+@font-face {
+    font-family: "SegoeUIItalic";
+    src: url("SegoeUIItalic/SegoeUIItalic.eot");
+    src: url("SegoeUIItalic/SegoeUIItalic.eot%3F")format("embedded-opentype"),
+    url("SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+    url("SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("SegoeUILight/SegoeUILight.eot");
+    src: url("SegoeUILight/SegoeUILight.eot%3F")format("embedded-opentype"),
+    url("SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUISemiBold"; */
+@font-face {
+    font-family: "SegoeUISemiBold";
+    src: url("SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("SegoeUISemiBold/SegoeUISemiBold.eot%3F")format("embedded-opentype"),
+    url("SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
