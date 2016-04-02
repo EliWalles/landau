@@ -7,8 +7,6 @@ jQuery(document).ready(function(){
 		e.preventDefault();
 	});
 	jQuery('#block-new4').append( jQuery('#block-new5') );
-
-</script>
 	jQuery('#form a.button').click(function(e){
 		var ErW = '';
 		if (!jQuery('input[name="widget_9"]').val()) {
