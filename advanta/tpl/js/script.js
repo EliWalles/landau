@@ -6,6 +6,9 @@ jQuery(document).ready(function(){
 		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
 		e.preventDefault();
 	});
+	jQuery('#block-new4').append( jQuery('#block-new5') );
+
+</script>
 	jQuery('#form a.button').click(function(e){
 		var ErW = '';
 		if (!jQuery('input[name="widget_9"]').val()) {
