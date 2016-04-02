@@ -2,11 +2,11 @@ jQuery = jQuery.noConflict(true);
 jQuery(document).ready(function(){
 	grayscale.prepare( jQuery('#dov .table .table-cell img') );
 	grayscale( jQuery('#dov .table .table-cell img') );
+	jQuery('#block-new4').append( jQuery('#block-new5') );
 	jQuery('a[href="#form"]').click(function(e){
 		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
 		e.preventDefault();
 	});
-	jQuery('#block-new4').append( jQuery('#block-new5') );
 	jQuery('#form a.button').click(function(e){
 		var ErW = '';
 		if (!jQuery('input[name="widget_9"]').val()) {
