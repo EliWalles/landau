@@ -4,6 +4,7 @@ jQuery(document).ready(function(){
 	grayscale.prepare( jQuery('#dov .table .table-cell img') );
 	grayscale( jQuery('#dov .table .table-cell img') );
 	
+  	jQuery('#block-new5').appendTo( jQuery('#block-new4') );
 	
 	jQuery('a[href="#form"]').click(function(e){
 		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
