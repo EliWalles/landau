@@ -1,5 +1,5 @@
 jQuery = jQuery.noConflict(true);
-jQuery(window).scroll(function() {
+jQuery(window).scroll(function(){
   jQuery('#block-new5').appendTo( jQuery('#block-new4') );
 });
 jQuery(document).ready(function(){
