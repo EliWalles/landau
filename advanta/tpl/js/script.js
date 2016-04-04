@@ -7,8 +7,7 @@ jQuery(document).ready(function(){
   	jQuery('#block-new5').appendTo(jQuery('#fFormBlock'));
 	
 	jQuery('#popup').click(function(e){
-		alert('123');
-		jQuery('#block-new7 a').click();
+		jQuery('#block-new7>a').click();
 		e.preventDefault();
 	});
 	jQuery('a[href="#form"]').click(function(e){
