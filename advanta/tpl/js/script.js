@@ -10,6 +10,10 @@ jQuery(document).ready(function(){
 		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
 		e.preventDefault();
 	});
+	jQuery('#popup').click(function(e){
+		jQuery('#block-new7 a').click();
+		e.preventDefault();
+	});
 	jQuery('#bthy #sendform').click(function(e){
 		var ErW = '';
 		if (!jQuery('input[name="widget_2"]').val()) {
