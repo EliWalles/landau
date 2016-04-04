@@ -116,12 +116,12 @@ function ParalaxImg() {
 
         $('.jcarousel-control-prev')
             .jcarouselControl({
-                target: '-=1'
+                target: '-=6'
             });
 
         $('.jcarousel-control-next')
             .jcarouselControl({
-                target: '+=1'
+                target: '+=6'
             });
 
         $('.jcarousel-pagination')
