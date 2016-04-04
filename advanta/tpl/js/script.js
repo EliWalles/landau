@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
 		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
 		e.preventDefault();
 	});
-	jQuery('#form a.button').click(function(e){
+	jQuery('#bthy #sendform').click(function(e){
 		var ErW = '';
 		if (!jQuery('input[name="widget_2"]').val()) {
 			ErW = 'Представьтесь<br/>';
@@ -35,11 +35,8 @@ jQuery(document).ready(function(){
 		}
 		if (ErW) {
 			jQuery('.errori').html(ErW);
-		} else {
-			/*jQuery('#sendform').click();*/
-			jQuery('#bthy #sendform').click();
+			e.preventDefault();
 		}
-		e.preventDefault();
 	});
 
 })
