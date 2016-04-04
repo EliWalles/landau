@@ -28,7 +28,6 @@ jQuery(document).ready(function(){
 			ErW += 'Введите телефон<br/>';
 			jQuery('input[name="widget_5"]').addClass('rq');
 		}
-		alert(jQuery('select[name="widget_7"]').val());
 		if (!jQuery('select[name="widget_7"]').val()) {
 			ErW += 'Выберете количество сотрудников в компании<br/>';
 			jQuery('select[name="widget_7"]').addClass('rq');
