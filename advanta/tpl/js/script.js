@@ -11,6 +11,7 @@ jQuery(document).ready(function(){
 		e.preventDefault();
 	});
 	jQuery('#popup').click(function(e){
+		alert('123');
 		jQuery('#block-new7 a').click();
 		e.preventDefault();
 	});
