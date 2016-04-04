@@ -6,13 +6,13 @@ jQuery(document).ready(function(){
 	
   	jQuery('#block-new5').appendTo(jQuery('#fFormBlock'));
 	
-	jQuery('a[href="#form"]').click(function(e){
-		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
-		e.preventDefault();
-	});
 	jQuery('#popup').click(function(e){
 		alert('123');
 		jQuery('#block-new7 a').click();
+		e.preventDefault();
+	});
+	jQuery('a[href="#form"]').click(function(e){
+		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
 		e.preventDefault();
 	});
 	jQuery('#bthy #sendform').click(function(e){
