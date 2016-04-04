@@ -36,7 +36,7 @@ jQuery(document).ready(function(){
 			jQuery('.errori').html(ErW);
 		} else {
 			/*jQuery('#sendform').click();*/
-			jQuery('.errori').html('<span style="color:#000">Форма отправлена</span>');
+			jQuery('#bthy #sendform').click();
 		}
 		e.preventDefault();
 	});
