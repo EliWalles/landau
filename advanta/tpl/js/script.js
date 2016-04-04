@@ -5,7 +5,7 @@ jQuery(document).ready(function(){
 	grayscale( jQuery('#dov .table .table-cell img') );
 	
   	jQuery('#block-new5').appendTo(jQuery('#fFormBlock'));
-  	jQuery('#block-new7').appendTo(jQuery('#calltoour'));
+  	jQuery('#block-new4').appendTo(jQuery('#calltoour'));
 	
 	jQuery('a[href="#form"]').click(function(e){
 		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
