@@ -5,11 +5,8 @@ jQuery(document).ready(function(){
 	grayscale( jQuery('#dov .table .table-cell img') );
 	
   	jQuery('#block-new5').appendTo(jQuery('#fFormBlock'));
+  	jQuery('#block-new7').appendTo(jQuery('#calltoour'));
 	
-	jQuery('#popup').click(function(e){
-		jQuery('#block-new7>a').click();
-		e.preventDefault();
-	});
 	jQuery('a[href="#form"]').click(function(e){
 		jQuery('html, body').animate({scrollTop:jQuery(document).height()}, 'slow');
 		e.preventDefault();
